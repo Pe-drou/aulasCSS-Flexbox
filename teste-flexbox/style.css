@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+}
+.cont{
+    background-color: black;
+    height: 200px;
+    width: 100%;
+    /* define um container flex */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.item{
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    margin: 10px;
+    color: white;
+    font-size: 32px;
+    /* alinhando os números */
+    display: flex;
+    /* "align-items" centraliza as linhas */
+    align-items: center;
+    /* flex-end alinha a direita, flex-start alina a esquerda */
+    justify-content: center;
+}
+.item:nth-child(1){
+    font-weight: 2000;
+    order: 1;
+}
+.item:nth-child(2){
+    flex-shrink: 10;
+    order: 2;
+}
+.item:nth-child(3){
+    order: 3;
+    align-self: flex-end;
+}
+.item:nth-child(4){
+    order: 4;
+}
+.item:nth-child(5){
+    flex-grow: .5;
+    order: 5;
+}
+.item:nth-child(6){
+    order: 6;
+}
