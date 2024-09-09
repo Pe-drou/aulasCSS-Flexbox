@@ -1,0 +1,21 @@
+/* ZERA TUDO ANTES */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* estilizando o parágrafo (p) */
+.products p{
+    margin: 0;
+    text-align: center;
+    padding: 10px;
+    color: rgb(60,150,200);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: rgb(60,150,200);
+    padding: 30px;
+    background-color: rgb(250,190,120);
+}
