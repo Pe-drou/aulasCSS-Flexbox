@@ -27,8 +27,6 @@ section.column{
     margin-bottom: 20px;
     display: flex;
     flex-direction: column;
-    height: 300px;
-    width: 250px;
 }
 .products p{
     margin: 0;
@@ -41,6 +39,7 @@ section.column{
     width: 100%;
     height: auto;
     padding-bottom: 10px;
+    width: auto;
 }
 footer{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
